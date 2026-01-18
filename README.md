@@ -1,16 +1,47 @@
-# React + Vite
+# 📊 CSV Analyzer – Full-Stack Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DromoLys Research & Development Pvt. Ltd.**  
+**Recruitment Assessment | Full-Stack Engineer (Graduate)**  
+**Predict. Prevent. Protect.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Project Overview
 
-## React Compiler
+This project is a full-stack web application that allows users to upload a CSV file, view the data in a table, select a column, compute statistics, and visualize numeric data using a histogram.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+All CSV parsing, statistics computation, and histogram data generation are handled on the **backend**, while the frontend consumes the APIs and renders the results.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Objective
+
+- Upload a CSV file
+- Display CSV data in a table
+- Select a column
+- Compute statistics
+- Generate a histogram for numeric columns
+
+---
+
+# Features
+
+### Frontend
+- CSV file upload
+- Dynamic table display
+- Column selection panel
+- Statistics calculation (min, max, mean, median, mode)
+- Missing value count display
+- Histogram visualization for numeric columns
+
+### Backend
+- Server-side CSV parsing
+- Server-side statistics computation
+- Server-side histogram generation
+- Input validation and error handling
+
+---
+
+# API Endpoints
+
+### Upload CSV
