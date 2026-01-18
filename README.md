@@ -50,6 +50,8 @@ npm run dev     # opens http://localhost:5173 (proxying to backend at http://loc
 ```
 
 # 10) Assumptions & Limitations
+- Only `.csv` files are accepted; empty or malformed files return readable errors.
+
 - CSV must include a header row; type inference is basic (number vs string).
 - In-memory storage means datasets vanish on restart; not intended for production or large files.
 - Histogram only for numeric columns; all stats/histogram logic runs on the server.
